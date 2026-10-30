@@ -1,0 +1,424 @@
+.cls-three{width:33%;float:left}
+.cls-three h2{font-size:40px;text-align: left;}
+.cls-three ul{margin-left:0px}
+.cls-three .listitem{font-size:15pt;padding-top: 10px;}
+.foder li{font-size:14pt;padding-top: 10px;}
+.cls-three .listitem .sub-video li{font-size:12pt;
+    width: 100%;
+    min-height: 20px;
+    padding-left: 10px;
+    list-style-type: decimal !important;
+}
+#gall-video{max-width:700px}
+.column-3{width:32%}
+.box-two{ width:100%}
+.box-two1{width:30%}
+.box-three1{ width:68%;padding-left:20px}
+.box-three{ width:32%}
+#gall{width:63%}
+#gall-video{width:100%;padding-top:8px}
+#va-accordion{width:34%;}
+#va-accordion a{float:left;padding-right:10px}
+#menu-mobile{display:none}
+@media screen and (max-width: 1152px) {
+  .column-3{width:32%}
+  .tabs{padding:5px}
+  .box-two{ width:100%}
+  .box-two1{width:30%}
+.box-three1{ width:68%}
+.box-three{ width:28%;padding-left:10px}
+.slider{padding:20px}
+#gall{width:70%}
+#va-accordion{width:28%;}
+  #wrapper {
+    max-width:960px;
+  }
+
+  #top-area .column:last-child{
+    margin-right: 0;
+  }
+  
+  #copyright{
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+ 
+ .video-list li{width:50%}
+ .tabs{padding:10px}
+ .column-3{width:32%}
+  #main-menu a{
+    padding: 13px 12px;
+  }
+  .content-sidebar-wrap,
+  #content,
+  #sidebar-first,
+  #sidebar-second {
+    float:none;
+    width:100% !important;
+  }
+  
+  #sidebar-first {
+    clear:both;
+  }
+  
+  #sidebar-first,
+  #sidebar-second,
+  #head,
+  #foot {
+    padding:0 3.52%;
+  }
+  
+  #top-area .column{ width: 32%; }
+
+  #sidebar-first, #sidebar-second, #head, #foot{ padding: 0 1.5%; }
+
+  .region-front-welcome{ margin: 1% 2%; }
+
+  .block{ margin-bottom: 2%; }
+
+  .content-sidebar-wrap #content{ margin: 0; }
+
+  #footer_wrapper, #top-area { padding: 0 15px; }
+}
+@media screen and (max-width: 840px) {
+.cls-three{width:100%}
+.video-list li{width:50%}
+.column-3{width:100%}
+.tab-links a{padding: 9px 8px !important;}
+#menu-mobile{display:block}
+.foder li{width:100%}
+  #main-menu{display:none}
+#logo{width:70%}
+}
+@media screen and (max-width: 640px) {
+.foder li{width:100%}
+.foder li{min-height:60px}
+.video-list li{width:100%}
+.column-3{width:100%}
+	.tab-links a{padding: 9px 5px !important;}
+  .box-three{padding:10px}
+  .box-three1{padding:10px}
+  .slider{padding:20px}
+
+  #playlist li {
+	width: 100% !important;
+	float: left;
+	}
+  #document-list li {
+	width: 100% !important;
+	float: left;
+	}
+  .cate-photo {
+width: 100% !important;
+}
+.gallery-list {
+width: 100%;}
+
+body.sidebar-second #sidebar-second{clear: both;}
+
+  #menu-mobile{display:block}
+  #main-menu{display:none}
+  #logo{ margin: 13px 10px; }
+
+
+  #copyright{ padding: 0 12px;}
+
+  body { margin-top: 0; }
+  
+  .nivo-caption {
+    bottom: 0%;
+    padding: 5px;
+    font-size: 11px;
+    line-height: 15px;
+    margin: 0;
+    width: 100%;
+  }
+  .box-two{ width:100%}
+  .box-two1{width:100%}
+  .box-three{ width:100%}
+  .box-three1{ width:100%;padding-left:0px}
+  #gall{width:100%}
+#va-accordion{width:100%;padding-right: 15px;}
+  .front .content-sidebar-wrap{ margin: 0; }
+
+  .theme-default .nivo-controlNav{ padding-top: 10px; }
+
+  .nivo-caption h3{
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .region-front-welcome{ padding: 10px; }
+
+  #site-title,
+  #site-description {
+    margin:0;  
+    line-height:1.62em;
+  }
+  
+  #site-title { padding-top:18px; }
+  
+  #site-description { padding-bottom:18px; }
+
+  #main-menu ul {position: absolute; }
+  
+  #main-menu li ul { position:static; border: 0; }
+  
+  #main-menu li ul ul { margin:0 !important; border: 0; }
+  
+  #main-menu ul,
+  #main-menu li { float:none; max-width:100%; }
+
+  #main-menu{border:0; background: #000; margin-top:20px }
+  #menu-hocphatphap{ display:none}
+  #main-menu a {
+    width:100%;
+    padding:8px 15px;
+    color: rgb(153, 153, 153);
+    border-bottom: 1px solid #1e262d;
+    border: 1px solid rgb(222, 222, 222);
+  }
+
+  #main-menu a:hover, #main-menu li a.active{
+    color: rgb(80, 77, 77);
+    text-decoration: none;
+    background: url(images/menu_bg_hover.png);
+  }
+
+  #main-menu li li a { text-align:center; }
+  
+  #main-menu li:hover > ul,
+  #main-menu li li:hover > ul,
+  #main-menu li li li:hover > ul {
+    display:none;
+  }
+  
+  .drop-down-toggle { display:block; }
+  
+  #main-menu li li .drop-down-toggle { top:5px; }
+
+  #main-menu .nav-toggle {
+    display:block;
+    font-size:13px;
+    font-weight:bold;
+  }
+
+  #main-menu ul.menu li{
+    background: url(images/menu_bg_hover.png);
+  }
+  
+  .flex-control-nav li { margin:0 0 0 10px; }
+  
+  .flex-control-nav li:first-child { margin:0; }
+  
+  .flex-control-nav li a {
+    box-shadow:none;
+    background:rgba(255, 255, 255, 0.75);
+  }
+  
+  #slider .entry-container {
+    position:absolute;
+    left:4%;
+    bottom:6.3%;
+  }
+  
+  #slider .entry-header,
+  #slider .entry-summary {
+    margin:0;
+  }
+  
+  #slider .entry-title {
+    margin-bottom: 0;
+  }
+  
+  #slider .entry-title a,
+  #slider .entry-summary{
+    display:inline-block;
+    padding:1% 3%;
+    background:rgba(255, 255, 255, 0.75);
+  }
+  
+  #slider .entry-summary {
+    max-width:61.8%;
+  }
+  
+  #slider .entry-summary p {
+    max-height:84px;
+    overflow:hidden;
+  }
+  
+  #slider .slide-image {
+    float:none;
+    display:block;
+    max-width:100%;
+    padding:0;
+    margin:0;
+    box-shadow:none;
+  }
+
+  .content-sidebar-wrap,
+  #sidebar-first,
+  #sidebar-second {
+    float:none;
+    width:auto;
+  }
+
+  .content-sidebar-wrap #content {
+    float: left;
+    width:auto;
+	margin-left: 10px;
+margin-right: 10px;
+  }
+  
+  #sidebar-first .block,
+  #sidebar-second .block,
+  #footer-area .column,
+  #top-area .column {
+    float:none !important;
+    width:auto !important;
+    margin-left:0;
+  }
+  
+  #sidebar-first {
+    clear:both;
+  }
+  
+  #footer-area .column,
+  #top-area .column {
+    margin:10px;
+  }
+  #top-area .column:first-child,
+  #footer-area .column:first-child{
+    margin: 10px;
+  }
+  
+  .copyright,
+  .credits {
+    float:none;
+    text-align:left;
+  }
+
+  .nivo-caption h2{
+    font-size: 12px;
+    margin: 0;
+  }
+  .nivo-directionNav{
+    display: none;
+  }
+  .theme-default .nivo-controlNav{
+    display: block;
+  }
+
+  #footer_wrapper, #top-area { padding: 0; }
+
+}
+
+@media screen and (max-width: 440px) {
+
+.bx-wrapper .bx-controls-direction a{margin-top: -38px !important;}
+  .top_left, 
+  .top_right,
+  .search_block,
+  .region-user-menu{ width: 100%; }
+
+  #logo { text-align: center; width: 70%; float:left }
+
+  #site-title{ width: 100%; }
+
+  #site-title a{ width: 100%; text-align: center; }
+
+  .social-icons{ position: inherit; width: 100%; }
+
+  .social-icons ul{ text-align: center; }
+
+  .top_right .region-user-menu ul.menu{ float: none; }
+
+  .block-menu ul{ float: none; text-align: center; }
+
+  .top_right .region-search{ width: 100%; padding: 0 31%; }
+
+  input.form-text, select.form-select {
+    width: 93%;
+  }
+
+  textarea.form-textarea {
+    width: 100%
+  }
+
+  .block > h2 {
+    font-size: 18px;
+  }
+
+  #top-area h2{
+    font-size: 14px;
+  }
+
+  #copyright{
+    padding: 0 5px;
+  }
+
+  #header{
+    padding-top:0px;
+  }
+
+  #logo{
+    margin:0px;
+    text-align: center;
+	margin-top:8px;
+  }
+
+   #logo img{
+    max-width: 85%;
+    text-align: center;
+  }
+
+  #site-title{
+    font-size: 18px;
+    display: inline-block;
+    margin: 10px 0 0 0;
+    padding: 0;
+  }
+
+  #site-description{
+    padding-bottom: 5px;
+    font-size: 10px;
+  }
+
+  .social-icons li{
+    padding: 0px;
+    text-align: center;
+  }
+
+  .social-icons li img{
+    display: inline-block;
+  }
+
+  .menu_wrapper{
+    margin-top: 0px;
+  }
+  .nivo-caption{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+  }
+
+  .node{
+    margin-top: 5px;
+  }
+
+  .nivo-caption h2{
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .nivo-directionNav{
+    display: none;
+  }
+
+  .theme-default .nivo-controlNav{
+    display: none;
+  }
+
+}
