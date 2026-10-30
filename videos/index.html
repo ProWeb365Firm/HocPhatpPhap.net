@@ -51,7 +51,8 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 
      
 	 <div class="top_left" style="padding-left:5px">
-     Thứ hai, 26 Tháng 10 2026     </div>
+     <span id="hpp-today"></span><script>(function(){var d=new Date(),n=["Chủ nhật","Thứ hai","Thứ ba","Thứ tư","Thứ năm","Thứ sáu","Thứ bảy"];document.getElementById("hpp-today").textContent=n[d.getDay()]+", "+d.getDate()+" Tháng "+(d.getMonth()+1)+" "+d.getFullYear();})();</script>
+     </div>
       <div class="top_right">
         
         <div id="switch_lang" class="search_block">
